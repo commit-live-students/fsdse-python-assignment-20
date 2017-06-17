@@ -1,2 +1,3 @@
 def solution(dic1):
-    '''Enter code here'''
+    for result in dic1:
+        return dic1.items()
