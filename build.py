@@ -1,2 +1,5 @@
 def solution(dic1):
-    '''Enter code here'''
+    op = []
+    for key,value in dic1.items():
+        op.append((key,value))
+    return op
