@@ -1,2 +1,5 @@
 def solution(dic1):
-    '''Enter code here'''
+        l = []
+        for i, j in dic1.items():
+            l.append((i,j))
+        return l
