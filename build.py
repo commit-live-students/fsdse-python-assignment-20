@@ -1,2 +1,5 @@
+from sortedcontainers.sorteddict import SortedDict
+
+
 def solution(dic1):
-    '''Enter code here'''
+    return SortedDict(dic1).items()
