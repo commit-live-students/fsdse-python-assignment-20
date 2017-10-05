@@ -1,2 +1,4 @@
-def solution(dic1):
+def solution(dict):
     '''Enter code here'''
+    l = list(dict.items())
+    return sorted(l, reverse = False)
